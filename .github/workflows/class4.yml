@@ -36,4 +36,4 @@ jobs:
       run: npm install -g surge
       #Deploy surge
     - name: Deploy React App to Surge
-      run: surge ./ build educated-clock.surge.sh -- token ${{secrets.SURGE_TOKEN}}       
+      run: surge ./ build young-trees.surge.sh -- token ${{secrets.SURGE_TOKEN}}       
