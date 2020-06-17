@@ -23,7 +23,7 @@ function Room() {
         <hr/>
       <h2>this room is {isLit? "lit" :"dark"}</h2>
       <br/>
-      Temperature={temp}
+      Temprature={temp}
       <br/>
       {/* <button onClick={updateLit}>toogle light</button> */}
       <button onClick={()=>setLit(!isLit)}>toogle light</button>
