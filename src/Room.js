@@ -26,16 +26,16 @@ function Room() {
       Temprature={temp}
       <br/>
       {/* <button onClick={updateLit}>toogle light</button> */}
-      <button onClick={()=>setLit(!isLit)}>toogle light</button>
+      <button onClick={()=>setLit(!isLit)}>""toogle light""</button>
       <br/>
       {/* <button onClick={increseAge}>Increment Tempreture</button> */}
       <button onClick={()=>{
             console.log("decrement Button Clicked");
             setTemp(++temp);
             }
-            }> Increse Temprature</button>
+            }> ""Increse Temprature""</button>
       <br/>
-      <button onClick={decreseTemp}>Decrese Temprature</button>
+      <button onClick={decreseTemp}>""Decrese Temprature""</button>
     </div>
   );
 }
