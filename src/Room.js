@@ -35,7 +35,7 @@ function Room() {
             }
             }> Increse Temprature</button>
       <br/>
-      <button onClick={decreseTemp}>decrese Temprature</button>
+      <button onClick={decreseTemp}>Decrese Temprature</button>
     </div>
   );
 }
